@@ -1,0 +1,24 @@
+.menu {
+    z-index: 1;
+    grid-area: m;
+    left: 370px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    /*border: 1px solid red;*/
+}
+.menu ul {
+    border: 1px solid #e5e5e5;
+}
+
+.menu li{
+    width: 220px;
+    height: 37px;
+    background-color: #fff;
+}
+
+.menu button{
+    width: 218px;
+    border: none;
+}
+

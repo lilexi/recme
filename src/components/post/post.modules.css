@@ -1,0 +1,11 @@
+.Post {
+    z-index: 0;
+
+}
+
+.Post p {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 10px;
+}
