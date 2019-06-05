@@ -1,10 +1,12 @@
 .profile {
     grid-area: p;
+    display: flex;
     background-color: #fff;
     margin-top: 5px;
     margin-left: 10%;
     margin-bottom: 5px;
     width: 200px;
     height: 29px;
-    border: 1px solid #e5e5e5;
+
 }
+

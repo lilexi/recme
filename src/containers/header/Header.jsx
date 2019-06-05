@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
-import logo from '../../assets/Group.png';
+import logo from '../../assets/Group.svg';
 
 // import components
 import Menu from "../../components/menu/menu";
 import Search from "../../components/search/search";
-import Profile from "../../components/profile/profile";
+import Profile from "./profile/profile";
 // import style
 import './header.modules.css';
 

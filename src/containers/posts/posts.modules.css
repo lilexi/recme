@@ -1,4 +1,8 @@
 .Posts {
     z-index: 0;
-    margin-left: 325px;
+    /*margin-left: 325px;*/
+    padding-left: 325px;
+
+    height: 100%;
 }
+

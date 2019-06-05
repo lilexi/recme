@@ -4,21 +4,54 @@
     left: 370px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 66px;
     display: inline-block;
     /*border: 1px solid red;*/
 }
 .menu ul {
     border: 1px solid #e5e5e5;
+    /*margin-left: 40px;*/
+    margin-top: 6px;
 }
 
 .menu li{
     width: 220px;
     height: 37px;
     background-color: #fff;
+    padding: 10px;
 }
 
-.menu button{
+.menu a {
+    text-decoration: none;
+    font-size: 12px;
+    align-content: center;
+    margin: auto;
+}
+
+.btn-menu {
+    display: flex;
+    margin: 0;
     width: 218px;
     border: none;
 }
+
+.icon-menu {
+    opacity: 0.55;
+    width: 27px;
+    height: 21px;
+    margin-top: 2px;
+    margin-right: 10px;
+    /*margin: 2px 10px 2px 40px;*/
+}
+
+.icon-menu-2 {
+    margin-left: 15px;
+}
+
+ .btn-menu p {
+     font-size: 12px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     padding: 0;
+ }
 
