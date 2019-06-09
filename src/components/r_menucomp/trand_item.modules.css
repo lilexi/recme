@@ -1,7 +1,89 @@
 .trand-item {
+    display: grid;
+    grid-template-areas:
+            "cat ti ti"
+            "cat li co";
+    grid-template-rows: 0.01fr 1fr 1fr;
+    grid-template-columns: 30px 0.1fr 1fr ;
+    grid-gap: 0px;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     width: auto;
     height: 40px;
     margin: 5px 0px 0px 0px;
 }
+
+.trand-item:hover {
+    border: 1px solid #bae0e5;
+}
+
+.trand-item:hover .category-logo-trand {
+    opacity: 1;
+}
+
+.trand-item:hover .title-trand {
+    opacity: 1;
+}
+
+.trand-item:hover .like-trand {
+    opacity: 1;
+}
+
+.trand-item:hover .count-like-trand {
+    opacity: 1;
+}
+
+
+
+.category-logo-trand {
+    grid-area: cat;
+    align-content: center;
+    width: 22px;
+    height: 22px;
+    margin: 8px 10px 9px 5px;
+
+    opacity: 0.7;
+}
+
+.category-logo-trand img {
+    width: 22px;
+    height: 22px;
+}
+
+
+.title-trand {
+    grid-area: ti;
+    width: 201px;
+    height: 11px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: justify;
+    overflow: hidden;
+
+    opacity: 0.7;
+}
+
+.like-trand {
+    grid-area: li;
+    margin: -1px 4px 0px 5px;
+    opacity: 0.7;
+}
+
+.like-trand img {
+    width: 11px;
+    height: 9px;
+
+}
+
+.count-like-trand {
+    font-size: 10px;
+    grid-area: co;
+    margin-top: 3px;
+    opacity: 0.7;
+}
+

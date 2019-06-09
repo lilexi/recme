@@ -1,17 +1,29 @@
 import React from 'react';
-import  './App.css';
-import Header from './containers/header/Header.jsx';
-import Posts from './containers/posts/Posts.jsx';
-import R_menu from './containers/right_menu/Right_menu.jsx';
+import './App.css';
+import {BrowserRouter, Route, Link} from 'react-router-dom'
+// import createBH from 'history/createBrowserHistory'
+//
+// const history = createBH();
+
+import MainPage from "./containers/main_page/main_page"
+import PostId_page from "./containers/Post_id/postid_page"
 
 function App() {
-  return (
-    <div className="App-wrapper">
-      <Header />
-      <Posts />
-      <R_menu />
-    </div>
-  );
+    return (
+        <>
+            <BrowserRouter>
+                <Route exact path="/" component={MainPage}/>
+                <Route path="/post/:post_id" component={PostId_page}/>
+
+            </BrowserRouter>
+        </>
+
+        // <div className="App-wrapper">
+        // <Header />
+        // <Posts />
+        // <R_menu />
+        // </div>
+    );
 }
 
 export default App;

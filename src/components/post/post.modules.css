@@ -1,11 +1,11 @@
 .Post {
     display: grid;
     grid-template-areas:
-            "l  li  lo  ti          ti          ti      ti"
-            "l  li  lo  cont        cont        cont    cont"
-            "l  li  lo  c_logo      co_com      cat     cre";
+            "l  li  lo  ti          ti          ti      ti      ti"
+            "l  li  lo  cont        cont        cont    cont    cont"
+            "l  li  lo  c_logo      co_com      cat     cre     mp";
     grid-template-rows: 0.01fr 0.1fr 25px;
-    grid-template-columns: 45px 0.05fr 0.01fr 0.1fr 0.1fr 1fr 1fr;
+    grid-template-columns: 45px 10px 0.01fr 0.01fr 0.01fr 0.5fr 0.5fr 0.1fr;
     grid-gap: 1px;
 
     width: auto;
@@ -19,8 +19,16 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.Post:hover {
+    box-shadow: 0 0 7px rgba(33, 201, 211, 0.5);
+}
+.Post:hover .content {
+    opacity: 1;
+}
 
 .like {
+    z-index: 1;
+    background-color: #fff;
     grid-area: l;
     align-content: center;
     margin: auto;
@@ -36,6 +44,7 @@
 }
 
 .like img {
+    z-index: 1;
     grid-area: l;
     /*padding-left: 4px;*/
 }
@@ -70,19 +79,15 @@
 .content {
     grid-area: cont;
     margin-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-overflow: ellipsis;
     text-align: justify;
     opacity: 0.5;
 }
 
-.content:hover {
-    opacity: 1;
-}
-
 .content p{
     padding: 0;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 10px 5px 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: 90px;
@@ -118,11 +123,22 @@
 }
 
 .creator {
-    margin: 5px 0px 0px 150px;
+    margin: 5px 0px 0px 0px;
+    margin-left: 10%;
     padding: 1px;
     grid-area: cre;
     height: auto;
     color: #929292;
+}
+
+@media screen and (max-width: 1241px) {
+    .creator {
+        display: none;
+    }
+    .category {
+        display: none;
+    }
+    
 }
 
 .creator p {
@@ -131,6 +147,9 @@
     height: auto;
 }
 
+.menu-post {
+    grid-area: mp;
+}
 .Post p {
     /*border: 1px solid #e5e5e5;*/
     /*border-radius: 8px;*/

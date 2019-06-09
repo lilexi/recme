@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import "./right_menu.modules.css"
-import Create_post from "../../components/r_menucomp/createpost_comp"
-import Randomizer from "../../components/r_menucomp/randomizer_comp"
-import Trands from "../../components/r_menucomp/trands_comp.jsx"
+import Create_post from "../../../components/r_menucomp/createpost_comp"
+import Randomizer from "../../../components/r_menucomp/randomizer_comp"
+import Trands from "./Trand/Trands"
 
 class R_menu extends Component {
     constructor(props) {

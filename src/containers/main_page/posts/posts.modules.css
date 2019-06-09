@@ -6,3 +6,9 @@
     height: 100%;
 }
 
+.Posts a {
+    text-decoration: none;
+    color: black;
+    z-index: 0;
+}
+
