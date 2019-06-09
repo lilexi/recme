@@ -1,0 +1,158 @@
+.Post {
+    display: grid;
+    grid-template-areas:
+            "l  li  lo  ti          ti          ti      ti      ti"
+            "l  li  lo  cont        cont        cont    cont    cont"
+            "l  li  lo  c_logo      co_com      cat     cre     mp";
+    grid-template-rows: 0.01fr 0.1fr 25px;
+    grid-template-columns: 45px 10px 0.01fr 0.01fr 0.01fr 0.5fr 0.5fr 0.1fr;
+    grid-gap: 1px;
+
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    z-index: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Post:hover {
+    box-shadow: 0 0 7px rgba(33, 201, 211, 0.5);
+}
+.Post:hover .content {
+    opacity: 1;
+}
+
+.like {
+    z-index: 1;
+    background-color: #fff;
+    grid-area: l;
+    align-content: center;
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.count-like {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.like img {
+    z-index: 1;
+    grid-area: l;
+    /*padding-left: 4px;*/
+}
+
+
+.line {
+    grid-area: li;
+    border-left: 2px solid #ccc; /* Параметры линии */
+    /*margin-left: 20px; !* Отступ слева *!*/
+    /*padding-left: 10px;*/
+}
+
+.category-logo {
+    grid-area: lo;
+    z-index: 0;
+}
+
+.category-logo img {
+    opacity: 0.7;
+    width: 22px;
+    height: 22px;
+}
+
+.title {
+    grid-area: ti;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.content-postID {
+    grid-area: cont;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    /*text-overflow: ellipsis;*/
+    text-align: justify;
+    /*opacity: 0.5;*/
+}
+
+.content-postID p{
+    padding: 0;
+    margin: 0px 10px 5px 0px;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*max-height: 90px;*/
+}
+
+.comment-logo {
+    grid-area: c_logo;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.count-comment {
+    margin-top: 5px;
+    grid-area: co_com;
+    color: #929292;
+
+}
+
+.count-comment p {
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    grid-area: cat;
+    margin: 5px 0px 0px 15px;
+    padding: 0px;
+}
+.category p {
+    margin: 0;
+    padding: 0;
+    color: #929292;
+}
+
+.creator {
+    margin: 5px 0px 0px 0px;
+    margin-left: 10%;
+    padding: 1px;
+    grid-area: cre;
+    height: auto;
+    color: #929292;
+}
+
+@media screen and (max-width: 1241px) {
+    .creator {
+        display: none;
+    }
+    .category {
+        display: none;
+    }
+    
+}
+
+.creator p {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.menu-post {
+    grid-area: mp;
+}
+.Post p {
+    /*border: 1px solid #e5e5e5;*/
+    /*border-radius: 8px;*/
+    /*box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
+    /*padding: 10px;*/
+}

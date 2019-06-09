@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./profile_cont.modules.css"
-import Profile from "../../../../components/profile/profile"
-import avatar from "../../../../assets/avatar.svg"
+import Profile from "../../../components/profile/profile"
+import avatar from "../../../assets/avatar.svg"
 
 class ProfileCont extends Component {
     constructor() {

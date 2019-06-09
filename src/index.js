@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route} from 'react-router-dom';
 
-import PostidPage from "./containers/Post_id/postid_page";
+import PostidPage from "./containers/Post_page_from_id/postid_page";
 
 ReactDOM.render(
     <BrowserRouter>

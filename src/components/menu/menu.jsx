@@ -20,7 +20,7 @@ class Menu extends Component {
             <div className="menu" onClick={this.enter} onMouseLeave={this.leave}>
                 <div className="btn-menu">
                     <img className="icon-menu" src={icon} alt=""/>
-                    <p>ГЛАВНАЯ СТРАНИЦА</p>
+                    <p>МЕНЮ</p>
                     <img className="icon-menu-2" src={icon2} alt=""/>
                 </div>
                 {this.state.showMenu ? <nav>

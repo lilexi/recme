@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./trand_item.modules.css"
 import likeOFF from "../../assets/likeOFF.svg";
 
 function TrandItem(props) {
     return (
-
+        <Link to={`/post/${props.trandID}`}>
         <div className="trand-item">
             <div className="category-logo-trand">
                 <img src={props.category_logo_trand} alt="c_logo"/>
@@ -15,6 +16,7 @@ function TrandItem(props) {
             </div>
             <div className="count-like-trand" > {props.count_like_trand} </div>
         </div>
+        </Link>
     )
 }
 

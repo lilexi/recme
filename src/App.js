@@ -6,7 +6,9 @@ import {BrowserRouter, Route, Link} from 'react-router-dom'
 // const history = createBH();
 
 import MainPage from "./containers/main_page/main_page"
-import PostId_page from "./containers/Post_id/postid_page"
+import PostId_page from "./containers/Post_page_from_id/postid_page"
+import Create_post from "./containers/Create_post/create_post"
+
 
 function App() {
     return (
@@ -14,7 +16,7 @@ function App() {
             <BrowserRouter>
                 <Route exact path="/" component={MainPage}/>
                 <Route path="/post/:post_id" component={PostId_page}/>
-
+                <Route path="/createpost" component={Create_post}/>
             </BrowserRouter>
         </>
 
