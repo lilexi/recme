@@ -1,11 +1,11 @@
-.postid-page {
+.create-post-page {
     background-color: #F8F8F8;
     display: grid;
     grid-template-areas:
-            "h h"
-            "p r";
+            "h"
+            "p";
     grid-template-rows: 38px 1fr;
-    grid-template-columns: 10fr 4fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     width: 100%;
     height: 100%;

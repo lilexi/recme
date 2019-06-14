@@ -30,6 +30,16 @@
     padding-left: 10px;
 }
 
+.btn-text-mess {
+    margin: 6px 0px 0px 5px;
+    padding-left: 0px;
+}
+
+.btn-text-r {
+    margin: 6px 0px 0px 5px;
+    padding-left: 25px;
+}
+
 .top-img {
     position: absolute;
     z-index: 1;

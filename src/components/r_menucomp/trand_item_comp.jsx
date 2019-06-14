@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import "./trand_item.modules.css"
-import likeOFF from "../../assets/likeOFF.svg";
+import likeOFF from "../../assets/likeON.png";
 
 function TrandItem(props) {
     return (

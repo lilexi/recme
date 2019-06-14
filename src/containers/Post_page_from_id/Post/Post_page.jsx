@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios/index';
 import "./post_page.modules.css";
 
-import video_logo from "../../../assets/video_logo.svg"
+import video_logo from "../../../assets/video_logo.png"
 import article_logo from "../../../assets/text_logo.png"
 import link_logo from "../../../assets/ling_logo.png"
 import comment_logo from "../../../assets/comment-logo.svg"

@@ -2,7 +2,7 @@
     grid-area: s;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: auto;
+    width: 0.1fr;
     height: 22px;
     /*border: 1px solid black;*/
 }

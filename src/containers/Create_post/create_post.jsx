@@ -8,7 +8,7 @@ class PostidPage extends Component {
 
     render() {
         return (
-            <div className="postid-page">
+            <div className="create-post-page">
                 <Header/>
                 <Create_post/>
             </div>

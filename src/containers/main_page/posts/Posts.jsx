@@ -9,15 +9,13 @@ import link_logo from "../../../assets/ling_logo.png"
 import comment_logo from "../../../assets/comment-logo.svg"
 
 class Posts extends Component {
-
     componentDidMount() {
         this.getPost();
     };
-
     state = {
-        posts: []
+        posts: [],
+        user_id: this.props.user_id
     };
-
     getPost = () => {
         axios.get('http://localhost:3001/posts', {
             headers: {
@@ -30,7 +28,6 @@ class Posts extends Component {
                 this.setState({posts});
             })
     };
-
     rPosts() {
         let p = null;
         p = this.state.posts.map(post => {
@@ -46,6 +43,7 @@ class Posts extends Component {
             }
 
             return <Post
+                key = {post.id}
                 postID={post.id}
                 PostClick={this.PostClick}
                 title={post.Title}
@@ -53,7 +51,7 @@ class Posts extends Component {
                 countComment={post.comments}
                 count_like={post.like}
                 category_logo={cat}
-                content={post.text.slice(0.3)}
+                content={post.text}
                 comment_logo={comment_logo}
                 category={post.id_catigories}
                 username={post.creator}
@@ -61,7 +59,6 @@ class Posts extends Component {
         });
         return p
     }
-
     render() {
         return (
             <div className="Posts">

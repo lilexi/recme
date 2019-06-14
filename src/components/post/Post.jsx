@@ -143,7 +143,6 @@ function Post(props) {
             <div className="creator"><p>Создал: @{props.username}</p></div>
             <div className="menu-post"/>
         </div>
-
     )
 }
 

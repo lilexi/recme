@@ -8,10 +8,10 @@ class R_menu extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
+            show_register: false,
+            show_login: false
         };
     }
-
 
     render() {
         return (

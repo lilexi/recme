@@ -1,5 +1,7 @@
 .Profile {
-
+    display: flex;
+    grid-area: p;
+    width: 100%;
 }
 
 
@@ -12,4 +14,51 @@
     padding: 0;
     margin-left: 10px;
     font-size: 11px;
+}
+
+.reg-auth {
+    display: flex;
+}
+
+.reg-auth a {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btn-profile {
+    display: flex;
+    margin: 2px 70px 4px 60%;
+    /*margin: 2px 5px 2px 70px;*/
+}
+
+.btn-profile-reg {
+    display: flex;
+    font-size: 14px;
+    width: 177px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+    margin-right: 10px;
+}
+
+.btn-profile-login {
+    display: flex;
+    font-size: 14px;
+    width: 137px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+}
+
+.icon-btn {
+    margin: 6px 5px 5px 20px;
+}
+
+.btn-text {
+    margin: 6px 0px 0px 5px;
+    padding-left: 10px;
 }

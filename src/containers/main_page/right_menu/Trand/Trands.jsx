@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./trands.modules.css"
 import TrandItem from "../../../../components/r_menucomp/trand_item_comp";
 
-import video_logo from "../../../../assets/video_logo.svg";
+import video_logo from "../../../../assets/video_logo.png";
 import article_logo from "../../../../assets/text_logo.png"
 import link_logo from "../../../../assets/ling_logo.png"
 import axios from "axios";
@@ -13,8 +13,13 @@ class Trands extends Component {
         this.getTrands()
     }
 
+
     state = {
         trands: []
+    };
+
+    setTrands = () => {
+
     };
 
     getTrands = () => {

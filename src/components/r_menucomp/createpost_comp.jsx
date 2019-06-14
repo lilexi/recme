@@ -9,16 +9,18 @@ import logo from "../../assets/r_cr_logo.svg"
 
 function CreatePostComp(props) {
     return (
-        <Link to={'/createpost'}>
+
         <div className="create-post">
             <div className="top-img"><img src={img} alt=""/></div>
             <div className="logo-img"><img src={logo} alt=""/></div>
+            <Link to={'/createpost'}>
             <div className="btn" onClick={props.CreatePost} >
                 <img className="icon" src={icon} alt="icon"/>
                 <div className="btn-text">Создать пост</div>
             </div>
+            </Link>
         </div>
-        </Link>
+
     )
 }
 
