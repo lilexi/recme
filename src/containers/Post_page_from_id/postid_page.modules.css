@@ -3,8 +3,9 @@
     display: grid;
     grid-template-areas:
             "h h"
-            "p r";
-    grid-template-rows: 38px 1fr;
+            "p r"
+            "c r";
+    grid-template-rows: 38px 1fr 0.1fr;
     grid-template-columns: 10fr 4fr;
     grid-gap: 10px;
     width: 100%;

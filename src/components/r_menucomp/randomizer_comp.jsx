@@ -65,7 +65,7 @@ class RandomizerComp extends Component {
         return (
             <div className="randomizer-block">
                 <img className="r-logo" src={img} alt=""/>
-                <h3>У меня есть</h3>
+                <h3>у меня есть</h3>
                 <div className="timer"><center>{this.state.time} <p>минут</p></center></div>
                 <form>
                     <input className="r-range" type="range" value= {this.state.time} step="5" min="5" max="60" onChange={(event) => this.changeHandler(event, 'time')}/>

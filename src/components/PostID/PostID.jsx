@@ -114,7 +114,7 @@ class Like extends Component {
 
     render() {
         return (
-            <div className="like" onClick={this.likeHandle}>
+            <div className="like-id" onClick={this.likeHandle}>
                 <img src={this.state.like_logo} alt="like"/>
                 <div className="count-like" onChange={this.LikeClick}> {this.state.count_like} </div>
             </div>

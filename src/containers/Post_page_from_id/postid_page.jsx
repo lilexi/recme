@@ -3,7 +3,7 @@ import "./postid_page.modules.css"
 
 import Header from '../../containers/header/Header';
 import Post from "./Post/Post_page"
-
+import Comments from "./comments/comments"
 class PostidPage extends Component {
 
     state = {
@@ -16,6 +16,7 @@ class PostidPage extends Component {
             <div className="postid-page">
                 <Header/>
                 <Post post_id={this.state.post_id}/>
+                <Comments/>
             </div>
         );
     }
