@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" patternUnits="objectBoundingBox" x="-2.30769231%" width="102.307692%" height="100%">
+            <use xlink:href="#image-2" transform="scale(0.338461538,0.338461538)"></use>
+        </pattern>
+        <image id="image-2" width="68" height="65" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABBCAYAAABo3gIBAAAABGdBTUEAALGOfPtRkwAABVJJREFUeAHtW0+IVWUUv2PmBA44KlYj1GwkWrQQdKFWMKvZOIogWNiUBNEoLXTnYiDHRdCihQXRNAyMEFKJggpBiIsBoeiPFFRgLYISFTFpoolsVOz3u/Od57mf9913z33fjPe9+w6c953vfH9/553z/XszXVE6rYb6CXBvenFLa2cw+0vgG3lQbEWl8+C7FWDiJN66NI6SKhjCx0jcNVrqpCNIR2raKLoK+QvwrNK1i9gDIFvAfQ4Qcd8EH3D5aCMEbbVR5LulsE1T4iNOjZt2iOkoPqXgnXlVZT6JV7AfFdRXnPI/pNxdSLTg2+AxJyOJiVacBA/OZ2ufdDeGnbSvFZRc4HyJm0ahHWISC/0sCqSvgkX/otJ/4/TXlU6H3JjSt4pI3IK1e4ma9b9K/gHynOMflf6Ck79XOu7pf7n8d0rfKqLG/QgnLdbRIKl/DJwWAk9D7y+6K6DrB7ciEbfYYIVsu2lArqUpobuYoqeHiJekFLeOShvkYUyb33TViLhr1AWJ7tKheQv06kW1Y5QoWqpDZhYWkV2kSsbZALA8zpNu80NWWH+XYVkVKLHLdELG+8o7BukYxLOAl+14iGcQvct4Rebs82jxBvgj8GfG1rwivAV+3Nguqzp3jHfBfCo0UahdRp4R/sboy00ziKKDqC/zCJnydt6IFmSXGcCofW5k7unbnJw3+QoVebsOTV9bOwwVMsPewC8h/4mny8pOo3AtWA5IWXXzljFkLuetrOuJixY9mPEpYAYs/TDlK1Ta0wHUpaPgITMEiP4teRl0u0oHPceEQmy7L6txjin5FSW3lCiuXiRkGBYMD/bB3YWeIrsNdevAZadEyDS7qO4EWoYH6TSYr2bHwfvBpBfAPF/koU2oxGfLUMRFdRr8j7XDZjyEhx5pv9UNrF/h+aKdh/iyL/2ETE/kGDzhIc2sIf0Y7Dk34B9Izzn5W6S/OPkppDRQI1rTqELBcrPHNRMy/FaFGCZcS4Q+hnDIZYaR0khZNOEKQ27Vt9Dnp1mD1isTF7Uuqj+hQ2nL+NfExVTKuMiWmRIhw4nKxC0GWa/a/VoH7ZeqzmCdOmVQJwxSNGQYBkIPQZiWjEpXKXk35LMqX2qxiIcwDKRdnpRnFOsNeLGMlvCQIrvMAGbaZ5xtD+pbb8DGIcJULxIyOlwOYxpTGVPZjrL3XHnWDfgZ1DkJNm+Tru+0hLvMm+AP0gqzdOLyeRZV/2bbCADDhOHCMbgt19tWR10dmUuoNA+mRMhYPWQIE5eb7eeQ6/0gjqKYeGzmN78HvAzMG3DaN8bzwg7wo+BQdAcd8QnRTPJt5LHmKfQu9XXoZA3KLVfamN83szoOVJbwEPYpk81jEGls3TVkV2JaNhJMtEPs/RaD8ETKp0G5yOUFN+Da0VvKRk0ZpGxgQswnYZAi55AQkyhtH9Zdhn9f9hrY2u5BGOA2Bp0EX7QMbgU2hc79m61lvMWu+ywG3GwZ1Boyv1k6L0Fd83ytHrIHIN8H84ZbduLBbMF/uePxu4yHq2BfjjVkgg1c1o46BvG+mY5BPINYF1U259tFkXbe0Aue5TlE/+NC7gEtd5lx9Cr1WyHlfBtRU0f3DY16L1m5eb5W198HwHvB1nYPwk4MmTwect/cxPXpOlWk+0JmzllhZRWtAcyCm3bgXy9E/OVNvKSfigoR8Qr2+BdInkPOKAMUepRV7VtN1HhrdqCVeEcRS52CTF07E/ERp2Am/hgz/6OK9Dr4w1i69/E7xD/vZdtG4prxpIdmBPkJTxcbRXuKWK+dU+KlM9Qlus0RMBeYdjUOcREfccZhgrRG/wPLJpI+o4UfRwAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="recome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_page" transform="translate(-375.000000, -290.000000)" fill="url(#pattern-1)">
+            <g id="Posts" transform="translate(324.000000, 79.000000)">
+                <g id="Post3" transform="translate(0.000000, 200.000000)">
+                    <path d="M52.9229139,11 L71.0770861,11 C71.7457252,11 71.9881898,11.0696192 72.2326343,11.2003495 C72.4770787,11.3310798 72.6689202,11.5229213 72.7996505,11.7673657 C72.9303808,12.0118102 73,12.2542748 73,12.9229139 L73,31.0770861 C73,31.7457252 72.9303808,31.9881898 72.7996505,32.2326343 C72.6689202,32.4770787 72.4770787,32.6689202 72.2326343,32.7996505 C71.9881898,32.9303808 71.7457252,33 71.0770861,33 L52.9229139,33 C52.2542748,33 52.0118102,32.9303808 51.7673657,32.7996505 C51.5229213,32.6689202 51.3310798,32.4770787 51.2003495,32.2326343 C51.0696192,31.9881898 51,31.7457252 51,31.0770861 L51,12.9229139 C51,12.2542748 51.0696192,12.0118102 51.2003495,11.7673657 C51.3310798,11.5229213 51.5229213,11.3310798 51.7673657,11.2003495 C52.0118102,11.0696192 52.2542748,11 52.9229139,11 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

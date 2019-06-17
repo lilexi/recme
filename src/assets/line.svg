@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="58px" viewBox="0 0 2 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="recome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.545454545">
+        <g id="main_page" transform="translate(-366.000000, -90.000000)" fill="#000000">
+            <g id="Posts" transform="translate(324.000000, 79.000000)">
+                <g id="Post1">
+                    <ellipse id="Oval" cx="43" cy="40" rx="1" ry="29"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
