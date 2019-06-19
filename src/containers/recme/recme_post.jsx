@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import axios from 'axios/index';
-import "./post_page.modules.css";
+import "../../containers/main_page/posts/posts.modules.css";
 
-import video_logo from "../../../assets/video_logo.png"
-import article_logo from "../../../assets/text_logo.png"
-import link_logo from "../../../assets/ling_logo.png"
-import comment_logo from "../../../assets/comment-logo.svg"
-import PostID from "../../../components/PostID/PostID";
+import video_logo from "../../assets/video_logo.png"
+import article_logo from "../../assets/text_logo.png"
+import link_logo from "../../assets/ling_logo.png"
+import comment_logo from "../../assets/comment-logo.svg"
+import PostID from "../../components/post/Post";
 
 class Posts extends Component {
 
@@ -14,7 +14,7 @@ class Posts extends Component {
         super(props);
         this.state = {
             posts: [],
-            id: this.props.post_id
+            user_id: this.props.user_id,
         };
     }
 
@@ -22,9 +22,10 @@ class Posts extends Component {
         this.getPost();
     };
 
+
     getPost = () => {
-        axios.post('http://localhost:3001/postsID', {
-            id: this.state.id
+        axios.post('http://localhost:3001/getrec', {
+            uID: this.state.user_id
         })
             .then(res => {
                 const posts = res.data.posts;

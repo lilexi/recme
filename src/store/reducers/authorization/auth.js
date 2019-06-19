@@ -5,7 +5,6 @@ const defaultState = {
     error: null,
 };
 
-
 const signUpStart = (state, action) => {
     const newState = {user: null, error: null, loading: true};
     return newState;

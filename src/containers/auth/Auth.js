@@ -10,7 +10,7 @@ class Auth extends Component {
         name: "",
         email: "",
         password: "",
-    }
+    };
 
     componentDidMount() {
         this.setState({type: this.props.match.params.type});
@@ -19,6 +19,7 @@ class Auth extends Component {
     changeHandler = (event, type) => {
         this.setState({[type]: event.target.value});
     };
+
     submit = (event) => {
         event.preventDefault();
         const userData = [];

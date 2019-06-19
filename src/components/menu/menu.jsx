@@ -28,9 +28,10 @@ class Menu extends Component {
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <li><Link to="/"> ГЛАВНАЯ СТРАНИЦА </Link></li>
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                        <li><Link to="/post/id"> ПРОСМОТР </Link></li>
+                        <li><Link to="/itsamagic"> РЕКОМЕНДАЦИИ </Link></li>
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                        <li><a href="">УДИВИ МЕНЯ</a></li>
+                        <li><Link to="/user_like"> ВАШИ ОЦЕНКИ </Link></li>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     </ul>
                 </nav> : null}
             </div>
