@@ -16,7 +16,7 @@ class R_menu extends Component {
     render() {
         return (
             <div className="r-menu">
-                <Create_post/>
+                <Create_post/> 
                 <Randomizer/>
                 <Trands/>
                 {/*<Sitemap/>*/}
