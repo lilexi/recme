@@ -1,4 +1,6 @@
  ![recome](https://github.com/LilExi/recme/blob/master/src/assets/Group.png?raw=true)
+ 
+ :octocat: [Backend](https://github.com/LilExi/recme_server)
 
 ## Дипломный проект
 Название работы: Система модерируемого web-приложения подбора медиа-контента на основе методов поддержки принятия решений.
